@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 
 url='http://site24.way2sms.com/Login1.action?'
 
-cred={'username': '8427407305', 'password': 'SAURABH123'}
+cred={'username': "Sender Mobile No.", 'password': "Your Password"}
 
 s=requests.Session()			# Session because we want to maintain the cookies
 
@@ -52,8 +52,8 @@ print sent
 		
 
 		
-msg="hello1"
-mobile_no="9023864848"	
+msg= "Your Message goes here"
+mobile_no= "Reciever's Mobile no."	
 	
 if len(msg)>139 or len(mobile_no)!=10 :	#checks whether the given message is of length more than 139
 
